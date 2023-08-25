@@ -1,0 +1,33 @@
+.searchInput {
+  border: none;
+  margin-right: 0.7rem;
+  width: 350px;
+  font-size: 1.2rem;
+  border: 2px solid var(--black);
+  margin-bottom: 2em;
+}
+
+.searchInput::placeholder {
+  font-size: 1rem;
+  color: rgba(37, 37, 37, 0.3);
+}
+
+.searchInputDark {
+  color: var(--white);
+  background-color: var(--black);
+  border-color: var(--white)
+}
+
+.searchInputDark::placeholder {
+  color: rgba(255, 255, 255, 0.3)
+}
+
+.searchInputDark:focus {
+  border: 2px solid var(--white)
+}
+
+@media screen and (max-width: 768px) {
+  .searchInput {
+    width: 13em;
+  }
+}

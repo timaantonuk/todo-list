@@ -1,0 +1,26 @@
+.themeSwitcher {
+  border: none;
+  font-size: 1.6em;
+  padding: 0.2em 0.7em;
+  border: 2px solid var(--black);
+  color: var(--white);
+  background: var(--black);
+  transition: .2s;
+}
+
+.themeSwitcher:hover {
+    background: var(--white);
+    color: var(--black)
+}
+
+.themeSwitcherDark {
+    color: var(--black);
+    background-color: var(--white);
+    transition: .2s;
+    
+}
+
+.themeSwitcherDark:hover {
+    background: var(--black);
+    color: var(--white)
+}

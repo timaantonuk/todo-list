@@ -1,0 +1,28 @@
+.todoItemLi {
+  display: flex;
+  gap: 15px;
+}
+
+.todoItemLiDark {
+  color: var(--white)
+}
+
+.completed {
+  text-decoration-line: line-through;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.important {
+  font-weight: 700;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .todoItemLi {
+    gap: .5rem;
+  }
+}

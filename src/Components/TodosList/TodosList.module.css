@@ -1,0 +1,28 @@
+.allTodos {
+  list-style-type: square;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  font-size: 1.2rem;
+
+  margin-bottom: 40px;
+
+  align-self: flex-start;
+}
+
+.translateUP {
+  margin-bottom: 20px;
+  translate: 0px -30px;
+}
+
+.translateUPDark {
+  color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+  .allTodos {
+    font-size: 1rem;
+    gap: .7rem;
+    padding-left: 1rem;
+  }
+}

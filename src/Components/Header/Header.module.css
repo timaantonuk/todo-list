@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+}
+
+.title {
+  font-size: 3.7rem;
+  text-align: center;
+}
+
+.titleDark {
+  color: white;
+}
+
+
+
+.subtitle {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.createInput {
+  border: none;
+  margin-right: 0.7rem;
+  width: 250px;
+  font-size: 1.2rem;
+  border: 2px solid var(--black);
+}
+
+.createInput::placeholder {
+  font-size: 1rem;
+  color: rgba(37, 37, 37, 0.3);
+}
+
+.createInputDark {
+  border-color: var(--white);
+  background-color: var(--black);
+  color: white;
+}
+
+.createInputDark::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.createInputDark:focus {
+  border: 2px solid var(--white)
+}
+
+
+.createBtn {
+  border: none;
+  font-size: 1.2rem;
+  border: 2px solid var(--black);
+  color: var(--white);
+  background: var(--black);
+}
+
+.createBtnDark {
+  color: var(--black);
+  background: var(--white);
+  border-color: var(--white);
+}
+
+.createBtn:hover {
+  background: var(--white);
+  color: var(--black);
+  transition: 0.2s;
+}
+
+input:focus {
+  border: 2px solid var(--black);
+  outline: none;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .inputContainer {
+    display: flex;
+  }
+
+  .createBtn {
+    height: 35px;
+    font-size: 0.8rem;
+  }
+
+  .createInput {
+    font-size: 0.8rem;
+    width: 140px;
+  }
+
+  .createInput::placeholder {
+    font-size: 0.8rem;
+  }
+}
